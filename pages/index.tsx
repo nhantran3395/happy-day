@@ -23,14 +23,14 @@ const Home: NextPage = () => {
 
       <div className={styles.container}>
         <div className={styles.boxTopRight}>
-          <h1 className={styles.quote}>
+          <h1 className={styles.quoteTopRight}>
             Happy day to my beloved friends, sisters, and special person.
           </h1>
         </div>
         <div className={styles.boxBottomLeft}>
-          <h1 className={styles.quote}>
+          <h1 className={styles.quoteBottomLeft}>
             May not only today, but every day will be special, every moment will
-            be memorable to you.
+            be memorable for you.
           </h1>
         </div>
       </div>

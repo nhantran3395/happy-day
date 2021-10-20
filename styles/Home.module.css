@@ -22,7 +22,12 @@
   padding: 2rem;
 }
 
-.quote {
+.quoteTopRight {
   max-width: 40%;
+  font-size: 3rem;
+}
+
+.quoteBottomLeft {
+  max-width: 50%;
   font-size: 3rem;
 }
