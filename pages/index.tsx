@@ -1,12 +1,36 @@
 import type { NextPage } from "next";
-import Image from "next/image";
+import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <h2>hello</h2>
-    </div>
+    <>
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap"
+          rel="stylesheet"
+        />
+        <title>Happy Day</title>
+        <meta name="description" content="Happy 20/10 to you" />
+        <link rel="icon" href="/images/rose.png" />
+      </Head>
+
+      <div className={styles.container}>
+        <div className={styles.boxTopRight}>
+          <h1 className={styles.quote}>
+            Happy day to my beloved friends, sisters and special one.
+          </h1>
+        </div>
+        <div className={styles.boxBottomLeft}>
+          <h1 className={styles.quote}>
+            Hope that every day will be special, every moment will be memorable
+            to you.
+          </h1>
+        </div>
+      </div>
+    </>
   );
 };
 
