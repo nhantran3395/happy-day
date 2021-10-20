@@ -29,8 +29,8 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.boxBottomLeft}>
           <h1 className={styles.quote}>
-            Hope that every day will be special, every moment will be memorable
-            to you.
+            Hope that not only today, every day will be special, every moment
+            will be memorable to you.
           </h1>
         </div>
       </div>
