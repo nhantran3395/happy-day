@@ -13,15 +13,16 @@
 .boxTopRight {
   display: flex;
   justify-content: flex-end;
-  padding: 5rem;
+  padding: 2rem;
 }
 
 .boxBottomLeft {
   display: flex;
   justify-content: flex-start;
-  padding: 5rem;
+  padding: 2rem;
 }
 
 .quote {
   max-width: 40%;
+  font-size: 3rem;
 }

@@ -7,7 +7,11 @@ const Home: NextPage = () => {
     <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap"
           rel="stylesheet"
@@ -20,7 +24,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <div className={styles.boxTopRight}>
           <h1 className={styles.quote}>
-            Happy day to my beloved friends, sisters and special one.
+            Happy day to my beloved friends, sisters, and special person.
           </h1>
         </div>
         <div className={styles.boxBottomLeft}>
